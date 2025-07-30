@@ -35,7 +35,7 @@ This project automates the processing of electrochemical test data from .txt fil
 
 ### **1. Clone the repository**
 
-git clone https://github.com/YOUR_USERNAME/electrochem-data-automation.git
+git clone https://github.com/michaelnajeeb/electrochem-data-automation.git
 cd electrochem-data-automation
 
 ### **2. Set up Python env**
