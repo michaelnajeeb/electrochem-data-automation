@@ -50,10 +50,13 @@ pip install -r requirements.txt
 
 ### **3. Add Google credentials**
 
-1. Create a Google Service Account.
-2. Enable Google Drive API + Google Sheets API.
-3. Download the credentials JSON as credentials.json and place it in the electrochem_data_automation folder.
-4. Share the Google Drive folder and relevant subfolders with the service account email.
+1. Log into Google Cloud https://console.cloud.google.com
+2. Create a Google Cloud Project: Click the project selector > New Project > Name Project > Create
+3. Enable required APIs: APIs & Services > Library > Enable both Google Drive API & Google Sheet API
+4. Create a Service Account: APIs & Services > Credentials > Create Credentials > Service Account > Name Service Account > Done
+5. Generate a JSON key for the service account: Service Accounts tab > Select new account > Keys > Add Key > Create new key > JSON > Download to electrochem-data-automation folder > Rename to "credentials.json"
+6. Share the Shared Drive with the service account
+7. Copy the folder IDs and replace variables in electrochemical_data_automation.py
 
 ### **4. Verify Google access**
 
