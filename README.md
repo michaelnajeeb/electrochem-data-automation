@@ -58,7 +58,9 @@ pip install -r requirements.txt
 ### **4. Verify Google access**
 
 verify service account has access to Google drive and Google sheet by running:
+```bash
 python google_access_verification.py
+```
 
 the python script will print the sheetname and a list of .txt files to verify access.
 
