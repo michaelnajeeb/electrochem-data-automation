@@ -35,14 +35,18 @@ This project automates the processing of electrochemical test data from .txt fil
 
 ### **1. Clone the repository**
 
+```bash
 git clone https://github.com/michaelnajeeb/electrochem-data-automation.git
 cd electrochem-data-automation
+```
 
 ### **2. Set up Python env**
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ### **3. Add Google credentials**
 
@@ -61,4 +65,6 @@ the python script will print the sheetname and a list of .txt files to verify ac
 ### **5. Run the pipeline**
 
 run the following python script:
+```bash
 python electrochemical_data_automation.py
+```
